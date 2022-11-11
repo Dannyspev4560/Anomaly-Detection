@@ -1,4 +1,9 @@
 function [outliers_indexes] = TSSM_SSM(datapath,format,NOutliers,flag)
+% To run the algorithm from the command window :
+% TSSM_SSM('C:\....\','*.tif',1,1)
+% important to add "\" at the end of the directory
+% works with standard RGB formatts, fr .tif required excplicit adaption
+
 
 %% Input:
 % datapath_format = "C:\......\*.bmp ro *.jpg and so on
