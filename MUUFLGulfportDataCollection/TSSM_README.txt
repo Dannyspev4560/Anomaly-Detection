@@ -1,0 +1,1 @@
+In order to run TSSM algorithm over this hyperspectral data , run TSSM_hsi.m
