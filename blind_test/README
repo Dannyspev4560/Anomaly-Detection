@@ -1,0 +1,54 @@
+******************************************************************
+
+Target Detection Blind Test
+Digital Imaging and Remote Sensing Group
+Chester F. Carlson Center for Imaging Science
+Rochester Institute of Technology
+
+http://dirs.cis.rit.edu/blindtest/
+
+blindtest@cis.rit.edu
+
+******************************************************************
+
+Blind Test
+
+The blind test dataset contains a hyperspectral image, spectral libraries, and photos of targets as they are in the self test scence.
+
+Naming Convention 	
+F5 	1m & 2m Maroon Nylon Target
+F6 	1m & 2m Gray Nylon Target
+F7 	1m & 2m Green Cotton Target
+V1 	1993 Chevy Blazer
+V2 	1997 Toyota T100
+V3 	1985 Subaru GL Wagon
+
+Files and Directories:
+
+HyMap 	
+blind_test_rad.hdr 	Radiance scene image header
+blind_test_rad.img 	Radiance scene image
+blind_test_refl.hdr 	Reflectence scene image header
+blind_test_refl.img 	Reflectence scene image
+	
+Photo 	
+F5.jpg 	Photo of fabric panel target 5
+F6.jpg 	Photo of fabric panel target 6
+F7.jpg 	Photo of fabric panel target 7
+V1.jpg 	Photo of vehicle target 1
+V2.jpg 	Photo of vehicle target 2
+V3.jpg 	Photo of vehicle target 3
+	
+SPL
+F5		Directory containing the following files for fabric panel 1  
+F5_f.hdr 	Field Spectra header file for fabric panel 5
+F5_f.spl 	Field Spectra ENVI Spectral Library for fabric panel 5
+F5_f.txt 	Field Spectra text file for fabric panel 5
+F5_l.hdr 	Lab Spectra header file for fabric panel 5
+F5_l.spl 	Lab Spectra ENVI Spectral Library for fabric panel 5
+F5_l.txt 	Lab Spectra text file for fabric panel 5
+	
+Spectral libraries are provided for all other files using the same naming convention.
+	
+Note 	
+V2a and V2b refer to a white truck's paint and it's bed color, respectively.
